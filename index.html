@@ -62,10 +62,10 @@ section{padding:44px 52px;border-bottom:1px solid var(--light)}section:last-chil
 .bigstat{text-align:center;padding:30px 20px;background:var(--navy);border-radius:16px;color:#fff}
 .bigstat .num{font-size:3.5rem;font-weight:800;color:var(--gold);line-height:1}
 .bigstat .lbl{font-size:1rem;font-weight:600;margin-top:8px;color:rgba(255,255,255,.7)}
-.lit-row{display:flex;gap:6px;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--light);font-size:1rem}
+.lit-row{display:flex;gap:0;align-items:stretch;border-bottom:1px solid var(--light);font-size:1rem}
 .lit-row:last-child{border-bottom:none}
-.lit-grade{font-weight:800;color:var(--navy);min-width:70px;flex-shrink:0}
-.lit-ex{color:var(--grey);line-height:1.5}
+.lit-grade{font-weight:800;color:#fff;background:var(--teal);min-width:86px;flex-shrink:0;padding:10px 12px;display:flex;align-items:center}
+.lit-ex{color:var(--grey);line-height:1.5;padding:10px 14px;background:#fff}
 .story-card{background:var(--navy);border-radius:16px;padding:24px;display:flex;gap:18px;align-items:flex-start;color:#fff}
 .story-card img{width:100px;height:100px;border-radius:50%;object-fit:cover;flex-shrink:0;border:3px solid var(--gold)}
 .story-card .nm{font-size:1.1rem;font-weight:700}.story-card .col{font-size:1rem;color:var(--gold);font-weight:600;margin-bottom:6px}
@@ -136,24 +136,35 @@ section{padding:44px 52px;border-bottom:1px solid var(--light)}section:last-chil
 <section id="pathways">
 <div class="s-tag">Five ways to earn your diploma</div>
 <div class="s-title">Louisiana offers 5 pathways to a high school equivalency diploma</div>
-<div class="s-sub">HiSET and GED testing are available to eligible individuals. Pathways 2-5 are available to adults age 18+ not currently enrolled in high school. All are free through our programs.</div>
+<div class="s-sub">HiSET and GED testing are available for ages 19 and up, or 16&ndash;18 year olds no longer enrolled in high school and with an approved age waiver. All other Louisiana high school equivalency pathways are available to non-high school students, ages 18 and up. All are free through our programs.</div>
 <div class="cg cg3" style="margin-bottom:14px">
 <div class="card" style="border-top:4px solid var(--navy)"><div class="card-t">Pathway 1</div><div class="card-n navy" style="font-size:1.1rem">HiSET or GED Testing</div><div class="card-note">Pass the standardized exam &mdash; the traditional route. We provide free test prep.</div><div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--light)"><div style="font-size:1.1rem;font-weight:700;color:var(--grey);text-transform:uppercase;margin-bottom:4px">Diplomas earned by pathway</div><div class="sr" style="font-size:1.05rem"><span class="sl">FY 23-24</span><span class="sv">3,375 (97.5%)</span></div><div class="sr" style="font-size:1.05rem"><span class="sl">FY 24-25</span><span class="sv">3,445 (89.2%)</span></div><div class="sr" style="font-size:1.05rem"><span class="sl">FY 25-26</span><span class="sv">3,054 (85.1%)</span></div></div></div>
 <div class="card" style="border-top:4px solid var(--teal)"><div class="card-t">Pathway 2 (18+)</div><div class="card-n" style="font-size:1.1rem">Career+ HSE</div><div class="card-note">Earn your diploma while training for a career &mdash; 12 college credits + industry credential.</div><div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--light)"><div style="font-size:1.1rem;font-weight:700;color:var(--grey);text-transform:uppercase;margin-bottom:4px">Diplomas earned</div><div class="sr" style="font-size:1.05rem"><span class="sl">FY 23-24</span><span class="sv">13</span></div><div class="sr" style="font-size:1.05rem"><span class="sl">FY 24-25</span><span class="sv">30</span></div><div class="sr" style="font-size:1.05rem"><span class="sl">FY 25-26</span><span class="sv">17</span></div></div></div>
 <div class="card" style="border-top:4px solid var(--gold)"><div class="card-t">Pathway 3 (18+)</div><div class="card-n gold" style="font-size:1.1rem">Accuplacer / ACT</div><div class="card-note">Score at college-ready levels &mdash; proving you're already at high school level or above.</div><div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--light)"><div style="font-size:1.1rem;font-weight:700;color:var(--grey);text-transform:uppercase;margin-bottom:4px">Diplomas earned</div><div class="sr" style="font-size:1.05rem"><span class="sl">FY 23-24</span><span class="sv">68</span></div><div class="sr" style="font-size:1.05rem"><span class="sl">FY 24-25</span><span class="sv">369</span></div><div class="sr" style="font-size:1.05rem"><span class="sl">FY 25-26</span><span class="sv teal">506 &uarr;</span></div></div></div>
 </div>
 <div class="cg cg2">
-<div class="card" style="border-top:4px solid var(--navy)"><div class="card-t">Pathway 4 (18+)</div><div class="card-n navy" style="font-size:1.1rem">College Prep Courses</div><div class="card-note">Complete developmental education college courses.</div><div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--light)"><div style="font-size:1.1rem;font-weight:700;color:var(--grey);text-transform:uppercase;margin-bottom:4px">Diplomas earned</div><div class="sr" style="font-size:1.05rem"><span class="sl">FY 23-24 / 24-25 / 25-26</span><span class="sv">3 / 14 / 4</span></div></div></div>
+<div class="card" style="border-top:4px solid var(--navy)"><div class="card-t">Pathway 4 (18+)</div><div class="card-n navy" style="font-size:1.1rem">College Prep Courses</div><div class="card-note">Complete corequisite college courses alongside credit coursework.</div><div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--light)"><div style="font-size:1.1rem;font-weight:700;color:var(--grey);text-transform:uppercase;margin-bottom:4px">Diplomas earned</div><div class="sr" style="font-size:1.05rem"><span class="sl">FY 23-24 / 24-25 / 25-26</span><span class="sv">3 / 14 / 4</span></div></div></div>
 <div class="card" style="border-top:4px solid var(--teal)"><div class="card-t">Pathway 5 (18+)</div><div class="card-n" style="font-size:1.1rem">Combined Pathway</div><div class="card-note">Combination of placement test scores and college coursework.</div><div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--light)"><div style="font-size:1.1rem;font-weight:700;color:var(--grey);text-transform:uppercase;margin-bottom:4px">Diplomas earned</div><div class="sr" style="font-size:1.05rem"><span class="sl">FY 23-24 / 24-25 / 25-26</span><span class="sv">2 / 3 / 6</span></div></div></div>
 </div>
-<div class="callout" style="margin-top:18px"><strong>Pathways 2-5 grew from 86 to 533 diplomas in three years.</strong> <a href="https://www.lctcs.edu/adult-education/high-school-equivalency" target="_blank">Learn more about all 5 pathways &rarr;</a></div>
+<div class="callout" style="margin-top:18px"><strong>Louisiana's alternate HSE pathways (non-HiSET or GED routes) grew from 86 to 533 diploma earners in three years.</strong> <a href="https://www.lctcs.edu/adult-education/high-school-equivalency" target="_blank">Learn more about all 5 pathways &rarr;</a></div>
 </section>
 
 <section id="works">
 <div class="s-tag">Does it work?</div>
 <div class="s-title">Adult Education WORKS</div>
 <div class="cg cg2" style="margin-bottom:18px">
-<div class="bigstat"><div class="num">2 out of 3</div><div class="lbl">high school equivalency diplomas earned in Louisiana come from <a href="https://www.lctcs.edu/adult-education" target="_blank" style="color:#fff;text-decoration:underline;text-decoration-color:var(--gold)">adult learners served through LCTC's Adult Education network</a></div></div>
+<div class="bigstat">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" style="width:54px;height:54px;margin-bottom:10px;opacity:.85" fill="none">
+  <!-- Diploma scroll -->
+  <rect x="8" y="14" width="48" height="34" rx="4" fill="rgba(255,255,255,0.12)" stroke="var(--gold)" stroke-width="2"/>
+  <line x1="16" y1="24" x2="48" y2="24" stroke="var(--gold)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="16" y1="31" x2="40" y2="31" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="16" y1="38" x2="36" y2="38" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Ribbon/seal -->
+  <circle cx="46" cy="42" r="8" fill="var(--teal)" stroke="var(--gold)" stroke-width="1.5"/>
+  <path d="M42 42 l2.5 2.5 L50 38" stroke="var(--gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
+<div class="num">2 out of 3</div><div class="lbl">high school equivalency diplomas earned in Louisiana come from <a href="https://www.lctcs.edu/adult-education" target="_blank" style="color:#fff;text-decoration:underline;text-decoration-color:var(--gold)">adult learners served through LCTC's Adult Education network</a></div></div>
 <div class="card"><div class="card-t">The Problem We're Solving</div>
 <div class="card-note" style="font-size:1rem;line-height:1.7;margin-bottom:12px">Across Louisiana, the statewide pass rate for HSE testing is <strong style="color:var(--red)">declining &mdash; from 72.3% to 58.0%</strong> over three years. More people are attempting the HiSET or GED on their own, and most are not passing. The number of HiSET and GED test takers who didn't pass all sections attempted within the same year has nearly doubled (+96%), and they may not know that testing isn't the only way to earn an HSE in Louisiana!</div>
 <div class="card-note" style="font-size:1rem;line-height:1.7">Meanwhile, <a href="https://www.lctcs.edu/adult-education" target="_blank" style="color:inherit;text-decoration:underline;text-decoration-color:var(--gold)">adult learners served through LCTC's Adult Education network</a> are succeeding at <strong style="color:var(--teal)">increasing rates &mdash; 9.0% to 11.9%</strong>, and now earn <strong>68.3% of all diplomas statewide</strong>, up from 65.9%. The difference is instruction, support, and a teacher who cares.</div>
